@@ -35,3 +35,10 @@ server {
     }
 }
 ```
+
+## Teste
+
+```bash
+docker-compose up --build
+docker-compose scale api=3  
+```
